@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { VideoListaComponent } from './components/video-lista/video-lista.component';
 
 @Component({
   selector: 'app-root',
