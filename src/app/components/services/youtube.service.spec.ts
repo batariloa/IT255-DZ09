@@ -13,7 +13,7 @@ describe('YoutubeService', () => {
   });
 
 
-  it('#getObservableValue should return value from observable',
+  it('Ocekujemo observable value od servisa',
   (done: DoneFn) => {
   service.getVideosForChanel(apiKey,100).subscribe(value => {
     expect(value).toBe('observable value');
